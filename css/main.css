@@ -544,3 +544,7 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+body{
+  font-size: 10vw;
+  font-family: GDSage
+}
