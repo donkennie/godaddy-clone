@@ -544,7 +544,117 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-body{
-  font-size: 10vw;
-  font-family: "GDSage-Bold", "Times New Roman"
+.absolute {
+  position: absolute;
 }
+
+.start-16 {
+  inset-inline-start: 4rem;
+}
+
+.block {
+  display: block;
+}
+
+.flex {
+  display: flex;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[8rem\] {
+  width: 8rem;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.items-end {
+  align-items: flex-end;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.bg-\[\#2B2B2B\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(43 43 43 / var(--tw-bg-opacity));
+}
+
+.p-5 {
+  padding: 1.25rem;
+}
+
+.font-\[\] {
+  font-family: ;
+}
+
+.text-\[0\.625rem\] {
+  font-size: 0.625rem;
+}
+
+.text-\[26px\] {
+  font-size: 26px;
+}
+
+.text-\[10vh\] {
+  font-size: 10vh;
+}
+
+.text-\[30px\] {
+  font-size: 30px;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-extrabold {
+  font-weight: 800;
+}
+
+.font-\[1rem\] {
+  font-weight: 1rem;
+}
+
+.font-\[10hv\] {
+  font-weight: 10hv;
+}
+
+.font-\[10vh\] {
+  font-weight: 10vh;
+}
+
+.tracking-tighter {
+  letter-spacing: -0.05em;
+}
+
+.text-inherit {
+  color: inherit;
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+body{
+  font-family: "GDSage-Bold", "Times New Roman", gdsherpa, Helvetica, Arial, sans-serif;
+}
+
