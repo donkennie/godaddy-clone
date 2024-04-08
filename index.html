@@ -7,10 +7,11 @@
     <title>GoDaddy Clone</title>
 </head>
 <body>
+    <header>
     <nav class="">
-        <div class="flex text-white  flex-row justify-between bg-[#2B2B2B] w-full p-5">
-            <div>
-            <div class="flex items-center font-[1rem] gap-2 ">
+        <div class="flex text-white font-bold flex-row justify-between px-8 bg-[#2B2B2B] w-full p-3">
+            <div class="flex flex-row">
+            <div class="flex items-center  pl-7 gap-1 ">
                 <svg fill="#ffff" width="35px" height="35px" viewBox="0 0 24 24" role="img" xmlns="http://www.w3.org/2000/svg">
                     <path d="M20.702 2.29c-2.494-1.554-5.778-1.187-8.706.654C9.076 1.104 5.79.736 3.3 2.29c-3.941 2.463-4.42 8.806-1.07
                      14.167 2.47 3.954 6.333 6.269 9.77 6.226 3.439.043 7.301-2.273 9.771-6.226 
@@ -23,14 +24,73 @@
                           0 0 1 .335-3.337 13.212 13.212 0 0 1 4.05-6.482 10.148 10.148 0 0 1 2.849-1.765c1.845-.733 3.586-.685 4.9.137 1.316.822 2.122 2.365 2.271
                            4.345a10.146 10.146 0 0 1-.33 3.334z"/>
                 </svg>
-                <p class="text-[30px] tracking-tighter font-extrabold">GoDaddy</p>
+                <p class="text-[26px] tracking-tighter font-semibold">GoDaddy</p>
+                <p class="start-[130px] pt-10 inline-block absolute text-inherit text-[0.625rem]">United Kingdom</p>
             </div>
-            <p class="absolute items-end start-16 text-inherit block leading-1 text-[0.625rem]">United Kingdom</p>
+             <div class="pl-8 flex items-center justify-between flex-row space-x-6">
+                <p>Domains</p>
+                <p>Websites and Hosting</p>
+                <span class="h-full border-r border-gray-600"></span>
+                <p>Email</p>
+                <p>Marketing</p>
+                <span class="h-full border-r border-gray-600 pr-[-9px]"></span>
+                <p>Pricing</p>
+            </div>
+            </div>
+
+            <div class="flex flex-row justify-between space-x-8 items-center pr-6">
+                <p>Contact Us</p>
+                <p>Help</p>
+                <div class="flex items-center">
+                <p>Sign In</p>
+                <span class="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="2em" viewBox="0 0 24 24"><path fill="currentColor" 
+                        d="M16.293 9.293L12 13.586L7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z"/>
+                    </svg>
+                </span>
+                </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="1.35em" viewBox="0 0 24 24"><path fill="currentColor" 
+                        d="M21.822 7.431A1 1 0 0 0 21 7H7.333L6.179 4.23A1.994 1.994 0 0 0 4.333 3H2v2h2.333l4.744 11.385A1 1 0 0 0 10 17h8c.417 
+                        0 .79-.259.937-.648l3-8a1 1 0 0 0-.115-.921M17.307 15h-6.64l-2.5-6h11.39z"/>
+                        <circle cx="10.5" cy="19.5" r="1.5" fill="currentColor"/>
+                        <circle cx="17.5" cy="19.5" r="1.5" fill="currentColor"/>
+                    </svg>
             </div>
         </div>
 
     </nav>
 
+    <div class=" pr-8 container">
+    <div class="m-auto flex flex-row mt-4 ">
+                <input type="text" class="bg-white border-gray-200 border-[8px] focus:border-none focus:outline-none rounded-xl m-auto h-[90px] w-[90%] pl-4 ml-14
+                 focus:border-sky-800 focus:ring-1 focus:ring-sky-800 shadow-2xl flex items-center font-[450px] text-[25px]"
+                  placeholder="Type the domain you want ">
+
+                    <div class="flex mt-3 absolute end-0">
+                      <button class=" px-[30px] p-[19px] mr-[316px] hover:bg-[#00a4a6] rounded-md bg-[#2f9292] text-white border ">
+                        <span class="flex gap-1 font-bold">
+                         <p>Search</p> 
+                         <p>Domains</p>
+                        </span>
+                      </button>
+                    </div>
+
+                    <div class=" bg-gray-200 flex items-center px-4 border-gray-200 border-[8px] rounded-xl">
+                        <button class="hover:bg-white flex gap-3">
+                            <div>
+                                <img class="w-[70px] h-13"  src="https://img1.wsimg.com/cdnassets/transform/059e3c63-00ff-4d3d-af87-19cd46cddf67/img-logo-tld-bar-gray_co" alt="">
+                            </div>
+
+                            <div class="flex flex-col items-start mt-2">
+                                <span class="font-semibold">£9.99‬/1st yr.</span>
+                                <span class="text-xs font-extralight">Get recognized with .co</span>
+                            </div>
+                        </button>
+                    </div>
+                
+    </div>
+   </div>
+</header> 
     <script src="script.js"></script>
 </body>
 </html>
